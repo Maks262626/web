@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lr-2-3</title>
+    <style>
+
+        #table{
+            border: 2px solid #000;
+        }
+        .orange{
+            background-color: orange;
+        }
+        .blue{
+            background-color: blue;
+        }
+        .purple{
+            background-color: purple;
+        }.bunner_link{
+            position: relative;
+            display: block;
+            width: 500px;
+            height: 200px;
+        }
+        .img_link{
+            width: 500px;
+            height: 200px;
+            object-fit: cover;
+        }.span_link{
+            position: absolute;
+            background-color: orange;
+            color: #fff;
+            padding: 5px 20px;
+            top: 0;
+            right: 0;
+        }
+    </style>
+</head>
+<body id="body">
+
+        <table id="table" cellpadding="20">
+            <tbody id="tablebody">
+            <tr class="orange">
+                <th>Назва</th>
+                <th>Ціна</th>
+                <th>Кількість</th>
+                <th>Вартість</th>
+            </tr>
+            </tbody>
+        </table>
+        <button id="generate_bunners">generate bunners</button>
+
+        <div id="bunners"></div>
+    <script src="./index.js"></script>
+</body>
+</html>

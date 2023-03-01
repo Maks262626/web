@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #011936;
+    color: #F4FFFD;
+    height: 100vh;
+    font-size: 40px;
+}
+
+#date{
+    padding: 100px 40px;
+    background-color: #F9DC5C;
+    border-radius: 50px;
+    color: #ED254E;
+    font-weight: bold;
+}

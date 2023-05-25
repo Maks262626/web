@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Events</title>
+</head>
+<body>
+    <form action="" class="form">
+        <div class="input-wrapper">
+            <label for="model-input" class="form-label">Name</label>
+            <input type="text" class="form-control" id="model-input" placeholder="Enter model" autocomplete="off">
+        </div>
+        <div class="input-wrapper">
+            <label for="price-input" class="form-label">Price</label>
+            <input type="number" class="form-control" id="price-input" placeholder="Enter price" autocomplete="off">
+        </div>
+        <div class="input-wrapper">
+            <label for="color-input" class="form-label">Color</label>
+            <input type="text" class="form-control" id="color-input" placeholder="Enter color" autocomplete="off">
+        </div>
+        <div class="input-wrapper">
+            <label for="select-clearence" class="form-label">Сustoms clearance</label>
+            <select id="select-clearence">
+                <option value="">Yes</option>
+                <option value="">No</option>
+            </select>
+        </div>
+        <div class="form__action">
+            <button class="btn btn_add btn__add" type="submit">ADD</button>
+            <button class="btn btn_clear btn__clear" type="submit">Clear</button>
+            
+            <input type="text" class="form-control form-control__input" id="find-input" placeholder="Find by model" autocomplete="off">
+            <button class="btn btn_find btn__find" type="submit">Find</button>
+        </div>
+    </form>
+    <section class="tables">
+        <table class="car-table">
+            <thead>
+                <tr>
+                    <th>Model</th>
+                    <th>Price</th>
+                    <th>Color</th>
+                    <th>Сustoms clearance</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <table class="car-table" id="find-table">
+            <thead>
+                <tr>
+                    <th>Model</th>
+                    <th>Price</th>
+                    <th>Color</th>
+                    <th>Сustoms clearance</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+            </tbody>
+        </table>
+    </section>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>

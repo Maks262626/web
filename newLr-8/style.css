@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color:#A7A1AE;
+    height: 100vh;
+    background-color:#1F2739;
+    font-size: 20px;
+}
+.blue { color: #185875; }
+.yellow { color: #FFF842; } 
+.car-table{
+    height: fit-content;
+    margin: 20px;
+}
+.car-table th{
+    font-weight: bold;
+    background-color: #1F2739;
+    color: #185875;
+    padding: 20px;
+
+}
+.car-table  td {
+    padding: 20px;
+}
+.car-table tr:nth-child(odd) {
+    background-color: #323C50;
+}  
+.car-table tr:nth-child(even) {
+    background-color: #2C3446;
+}
+.car-table td:first-child { color: #FB667A; }
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.form-control{
+    width: 75%;
+
+    font-family: inherit;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #11998e;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    fill-opacity: none;
+}
+.form-label{
+    padding-bottom: 10px;
+}
+.input-wrapper{
+    display: flex;
+    flex: 0 1 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.btn{
+    font-weight: 600;
+    background: #374055;
+    color: #11998e;
+    padding: 20px 40px;
+    border: 0;
+}
+.btn_clear{
+    background-color: #FB667A;
+    color: wheat;
+}
+select{
+    font-weight: 600;
+    background-color: #2C3446;
+    color: #11998e;
+    padding: 20px 40px;
+    border: 0;
+}
+button{
+    cursor: pointer;
+}
+.tables{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.form__action{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.btn__clear{
+    margin-left: 50px;
+}
+.btn__find{
+    margin-left: 20px;
+}
+.btn_find{
+    background-color: #11b267;
+    color: #fff;
+}
+.form-control__input{
+    margin-left: 50px;
+}

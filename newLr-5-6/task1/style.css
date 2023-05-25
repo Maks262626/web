@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    color:#A7A1AE;
+    height: 100vh;
+    background-color:#1F2739;
+    font-size: 20px;
+}
+#myBtn {
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    color:rgb(237, 180, 25);;
+    width: 200px;
+    height: 100px;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin-right: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .3s;
+
+}
+#myBtn::after {
+    position: absolute;
+    content: "";
+    
+    height: 200%;
+    width: 6%;
+    transform: rotate(-45deg) translateX(10px);
+    background-color: rgb(237, 180, 25);
+    left: 0;
+    top: 0;
+    transition: .3s;
+
+}
+
+#myBtn:hover {
+    background-color: #cad2bb;
+    transition: .3s;
+    color: rgb(2, 116, 43);
+
+}
+#myBtn:hover::after{
+    background-color: rgb(2, 116, 43);
+    transform: translateX(190px);
+    transition: .3s;
+}
+#img-gif{
+    width: 200px;
+    cursor: pointer;
+}
